@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sedan:ital@0;1&family=Sofia+Sans+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap");
+
+$white: #ffff;
+$black: #242424;
+$lightBlue: #5c7c89;
+$midBlue: #1f4959;
+$darkBlue: #011425;
+$lightGold: #eddc8f;
+$darkGold: #926027;
+$sedan: "Sedan SC", serif;
+$sofia: "Sofia", serif;
+$monsterrat: "Montserrat", serif;
+
+@import "navbar";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $sedan;
+  background-color: whitesmoke;
+}
